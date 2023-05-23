@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rishabh - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="Style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Rishabh's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="project.html">Projects</a></li>
+            <li><a href="contact.html">Contact-Me</a></li>
+          </ul>
+        </div>
+      </nav>
+      <hr />
+    </header>
+    <main>
+      <section class="services-section">
+        <h1>Services</h1>
+        <div
+          id="services-carousel"
+          class="carousel slide"
+          data-ride="carousel"
+          data-interval="2000"
+        >
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li
+              data-target="#services-carousel"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#services-carousel" data-slide-to="1"></li>
+            <li data-target="#services-carousel" data-slide-to="2"></li>
+            <li data-target="#services-carousel" data-slide-to="3"></li>
+            <li data-target="#services-carousel" data-slide-to="4"></li>
+          </ol>
+
+          <!-- Slides -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="service-box">
+                <h3>Python Developer</h3>
+                <img src="5.png" alt="Image 1" />
+                <!-- Add image source -->
+                <p>Custom Python development tailored to your needs.</p>
+                <p class="price">$50/project</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="service-box">
+                <h3>Flask Developer</h3>
+                <img src="6.png" alt="Image 2" />
+                <!-- Add image source -->
+                <p>Building web applications using the Flask framework.</p>
+                <p class="price">$50/project</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="service-box">
+                <h3>Django Developer</h3>
+                <img src="7.png" alt="Image 3" />
+                <!-- Add image source -->
+                <p>Expertise in developing scalable Django applications.</p>
+                <p class="price">$50/project</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="service-box">
+                <h3>Web Developer</h3>
+                <img src="8.png" alt="Image 4" />
+                <!-- Add image source -->
+                <p>Creating modern and responsive websites.</p>
+                <p class="price">$50/project</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="service-box">
+                <h3>Frontend Developer</h3>
+                <img src="9.png" alt="Image 5" />
+                <!-- Add image source -->
+                <p>Crafting beautiful and interactive user interfaces.</p>
+                <p class="price">$50/project</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Controls -->
+          <a
+            class="carousel-control-prev"
+            href="#services-carousel"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#services-carousel"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </section>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+      // Activate the carousel
+      $(".carousel").carousel();
+    </script>
+  </body>
+</html>

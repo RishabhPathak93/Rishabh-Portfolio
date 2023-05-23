@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rishabh - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Rishabh's Portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="Services.html">Services</a></li>
+            <li><a href="project.html">Projects</a></li>
+            <li><a href="contact.html">Contact-Me</a></li>
+          </ul>
+        </div>
+      </nav>
+      <hr style="border: 0; background-color: #9c97f1; height: 3px" />
+    </header>
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hi, My name is <span class="purple"> Rishabh Pathak</span>
+          <div>and I am a passionate</div>
+          <span id="element"></span>
+        </div>
+        <div class="rightsection">
+          <img src="bg.png" alt="" />
+        </div>
+      </section>
+      <hr />
+
+      <section class="secondsection">
+        <h1>About Me</h1>
+
+        <div class="education">
+          <h2>Education</h2>
+          <p>
+            I am pursuing my undergraduation from Mumbai University. In Fr.
+            Conceicao Rodrigues college of Engineering in the branch of
+            Artificial Intelligence and Data Science
+          </p>
+        </div>
+
+        <div class="passion">
+          <section class="passion-section">
+            <h2>My Passion</h2>
+            <p>
+              I am truly passionate about web development and Python
+              development. These two areas of expertise have captivated my
+              interest and continue to inspire me in my journey as a developer.
+            </p>
+
+            <div class="passion-item">
+              <i class="fas fa-code passion-icon"></i>
+              <h3>Web Development</h3>
+              <p>
+                Web development allows me to unleash my creativity and technical
+                skills simultaneously. I enjoy crafting visually appealing
+                websites and user interfaces using HTML, CSS, and JavaScript.
+                Building responsive and interactive web experiences that engage
+                users brings me immense satisfaction.
+              </p>
+            </div>
+
+            <div class="passion-item">
+              <i class="fab fa-python passion-icon"></i>
+              <h3>Python Development</h3>
+              <p>
+                Python has become my language of choice for its simplicity,
+                versatility, and extensive libraries. I love the flexibility and
+                power it offers for developing various applications, including
+                web applications, data analysis tools, and automation scripts.
+                Exploring the vast Python ecosystem and leveraging its
+                capabilities to solve problems drives my passion for Python
+                development.
+              </p>
+            </div>
+          </section>
+        </div>
+      </section>
+      <hr />
+
+<!--Project Section-->
+<section class="project-section">
+  <h2>Projects</h2>
+  <div class="project-container">
+    <div class="project-box">
+      <a
+        href="https://github.com/RishabhPathak93/MyMininotepad"
+        target="_blank"
+      >
+        <img src="p1.png" alt="Notepad using Python" />
+        <h3>Notepad Using Python</h3>
+      </a>
+    </div>
+    <div class="project-box">
+      <a
+        href="https://github.com/RishabhPathak93/Snake_game/tree/main"
+        target="_blank"
+      >
+        <img src="p2.png" alt="Snake Game Using Python" />
+        <h3>Snake Game Using Python</h3>
+      </a>
+    </div>
+    <div class="project-box">
+      <a
+        href="https://github.com/RishabhPathak93/3DBackground/tree/main"
+        target="_blank"
+      >
+        <img src="p3.png" alt="3DBackground" />
+        <h3>3DBackground</h3>
+      </a>
+    </div>
+    <div class="project-box">
+      <a
+        href="https://github.com/RishabhPathak93/AnimatedNavbar"
+        target="_blank"
+      >
+        <img src="p41.png" alt="Animated navbar" />
+        <img src="p42.png" alt="Animated navbar" />
+        <h3>Animated Navbar</h3>
+      </a>
+    </div>
+    <div class="project-box">
+      <a href="https://github.com/RishabhPathak93/Quizapp" target="_blank">
+        <img src="p5.png" alt="Quizzapp" />
+        <h3>Quiz App</h3>
+      </a>
+    </div>
+    <div class="project-box">
+      <a href="#" target="_blank">
+        <img src="p6.png" alt="Project 6" />
+        <h3>Project 6</h3>
+      </a>
+    </div>
+    <div class="project-box">
+      <a href="#" target="_blank">
+        <img src="p7.png" alt="Project 7" />
+        <h3>Project 7</h3>
+      </a>
+    </div>
+    <div class="project-box">
+      <a href="#" target="_blank">
+        <img src="p8.png" alt="Project 8" />
+        <h3>Project 8</h3>
+      </a>
+    </div>
+  </div>
+</section>
+
+</main>
+      <!--Contact Form-->
+      <section class="contact-section">
+        <h1>Contact Me</h1>
+        <form id="contact-form">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit">Submit</button>
+          <p>
+            🤞🤞Please fill this form to Rate me and suggest the changes which i can make
+            <a
+              href="https://forms.gle/7syyeUACo5tqft1k8"
+              target="_blank"
+              >Google Form</a
+            >.
+          </p>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <ul class="footer-icons">
+        <li>
+          <a href="#"><i class="fas fa-bars"></i> Menu</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/rishabh-pathak-4a573a22b"
+            ><i class="fab fa-linkedin"></i> LinkedIn</a
+          >
+        </li>
+        <li>
+          <a href="https://instagram.com/brahminladka12?igshid=NGExMmI2YTkyZg=="
+            ><i class="fab fa-instagram"></i> Instagram</a
+          >
+        </li>
+        <li>
+          <a href="https://www.hackerrank.com/crce_9729_aids?hr_r=1"
+            ><i class="fab fa-Hackerrank"></i> Hackerrank</a
+          >
+        </li>
+      </ul>
+      <ul class="footer-contact">
+        <li>
+          <a href="#"><i class="fas fa-phone"></i><span>9305508524</span></a>
+        </li>
+        <li>
+          <a href="#"
+            ><i class="fas fa-envelope"></i
+            ><span>rishabhpathak268@gmail.com</span></a
+          >
+        </li>
+        <li>
+          <a href="#"
+            ><i class="fas fa-map-marker-alt"></i><span>Location</span></a
+          >
+        </li>
+      </ul>
+      <p class="copyright">&copy; 2023 @Rishabh Pathak</p>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Web Developer",
+          "Flask Developer",
+          "Python Developer",
+          "Django Developer",
+        ],
+        typeSpeed: 50,
+      });
+    </script>
+  </body>
+</html>
